@@ -1,8 +1,10 @@
 import 'package:bytebank_full/screens/dashboard.dart';
+import 'package:bytebank_full/webAPI/webclient.dart';
 import 'package:flutter/material.dart';
 
 void main() { 
   runApp(ByteBankApp());
+  findAll();
 }
 
 
